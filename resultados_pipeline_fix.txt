@@ -1,0 +1,2351 @@
+A01 Fold 1: EEGNet acc=58.62% | LDA(CSP) acc=70.69% | Ensemble acc=74.14%
+A01 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.47      0.50      0.48        14
+  right_hand       0.58      0.47      0.52        15
+        feet       0.62      0.36      0.45        14
+      tongue       0.65      1.00      0.79        15
+
+    accuracy                           0.59        58
+   macro avg       0.58      0.58      0.56        58
+weighted avg       0.58      0.59      0.56        58
+
+A01 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.82      0.64      0.72        14
+  right_hand       0.72      0.87      0.79        15
+        feet       0.67      0.57      0.62        14
+      tongue       0.65      0.73      0.69        15
+
+    accuracy                           0.71        58
+   macro avg       0.71      0.70      0.70        58
+weighted avg       0.71      0.71      0.70        58
+
+A01 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.82      0.64      0.72        14
+  right_hand       0.72      0.87      0.79        15
+        feet       0.80      0.57      0.67        14
+      tongue       0.68      0.87      0.76        15
+
+    accuracy                           0.74        58
+   macro avg       0.76      0.74      0.73        58
+weighted avg       0.75      0.74      0.74        58
+
+Confusion EEGNet fold1:
+[[ 7  5  2  0]
+ [ 7  7  1  0]
+ [ 1  0  5  8]
+ [ 0  0  0 15]]
+Confusion LDA fold1:
+[[ 9  5  0  0]
+ [ 2 13  0  0]
+ [ 0  0  8  6]
+ [ 0  0  4 11]]
+Confusion ENS fold1:
+[[ 9  5  0  0]
+ [ 2 13  0  0]
+ [ 0  0  8  6]
+ [ 0  0  2 13]]
+A01 Fold 2: EEGNet acc=65.52% | LDA(CSP) acc=72.41% | Ensemble acc=68.97%
+A01 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.73      0.53      0.62        15
+  right_hand       0.63      0.86      0.73        14
+        feet       0.58      0.50      0.54        14
+      tongue       0.69      0.73      0.71        15
+
+    accuracy                           0.66        58
+   macro avg       0.66      0.66      0.65        58
+weighted avg       0.66      0.66      0.65        58
+
+A01 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.82      0.60      0.69        15
+  right_hand       0.71      0.86      0.77        14
+        feet       0.65      0.79      0.71        14
+      tongue       0.77      0.67      0.71        15
+
+    accuracy                           0.72        58
+   macro avg       0.74      0.73      0.72        58
+weighted avg       0.74      0.72      0.72        58
+
+A01 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.75      0.60      0.67        15
+  right_hand       0.71      0.86      0.77        14
+        feet       0.59      0.71      0.65        14
+      tongue       0.75      0.60      0.67        15
+
+    accuracy                           0.69        58
+   macro avg       0.70      0.69      0.69        58
+weighted avg       0.70      0.69      0.69        58
+
+Confusion EEGNet fold2:
+[[ 8  6  1  0]
+ [ 1 12  1  0]
+ [ 1  1  7  5]
+ [ 1  0  3 11]]
+Confusion LDA fold2:
+[[ 9  4  1  1]
+ [ 2 12  0  0]
+ [ 0  1 11  2]
+ [ 0  0  5 10]]
+Confusion ENS fold2:
+[[ 9  5  1  0]
+ [ 2 12  0  0]
+ [ 1  0 10  3]
+ [ 0  0  6  9]]
+A01 Fold 3: EEGNet acc=56.90% | LDA(CSP) acc=75.86% | Ensemble acc=77.59%
+A01 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.56      0.67      0.61        15
+  right_hand       0.67      0.71      0.69        14
+        feet       0.40      0.13      0.20        15
+      tongue       0.55      0.79      0.65        14
+
+    accuracy                           0.57        58
+   macro avg       0.54      0.57      0.54        58
+weighted avg       0.54      0.57      0.53        58
+
+A01 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.92      0.73      0.81        15
+  right_hand       0.75      0.86      0.80        14
+        feet       0.80      0.53      0.64        15
+      tongue       0.65      0.93      0.76        14
+
+    accuracy                           0.76        58
+   macro avg       0.78      0.76      0.75        58
+weighted avg       0.78      0.76      0.75        58
+
+A01 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.92      0.80      0.86        15
+  right_hand       0.80      0.86      0.83        14
+        feet       0.80      0.53      0.64        15
+      tongue       0.65      0.93      0.76        14
+
+    accuracy                           0.78        58
+   macro avg       0.79      0.78      0.77        58
+weighted avg       0.80      0.78      0.77        58
+
+Confusion EEGNet fold3:
+[[10  5  0  0]
+ [ 3 10  1  0]
+ [ 4  0  2  9]
+ [ 1  0  2 11]]
+Confusion LDA fold3:
+[[11  3  0  1]
+ [ 1 12  1  0]
+ [ 0  1  8  6]
+ [ 0  0  1 13]]
+Confusion ENS fold3:
+[[12  2  0  1]
+ [ 1 12  1  0]
+ [ 0  1  8  6]
+ [ 0  0  1 13]]
+A01 Fold 4: EEGNet acc=56.14% | LDA(CSP) acc=70.18% | Ensemble acc=68.42%
+A01 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.62      0.36      0.45        14
+  right_hand       0.53      0.71      0.61        14
+        feet       0.60      0.20      0.30        15
+      tongue       0.56      1.00      0.72        14
+
+    accuracy                           0.56        57
+   macro avg       0.58      0.57      0.52        57
+weighted avg       0.58      0.56      0.52        57
+
+A01 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.82      0.64      0.72        14
+  right_hand       0.74      1.00      0.85        14
+        feet       0.58      0.47      0.52        15
+      tongue       0.67      0.71      0.69        14
+
+    accuracy                           0.70        57
+   macro avg       0.70      0.71      0.69        57
+weighted avg       0.70      0.70      0.69        57
+
+A01 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.82      0.64      0.72        14
+  right_hand       0.74      1.00      0.85        14
+        feet       0.56      0.33      0.42        15
+      tongue       0.61      0.79      0.69        14
+
+    accuracy                           0.68        57
+   macro avg       0.68      0.69      0.67        57
+weighted avg       0.68      0.68      0.66        57
+
+Confusion EEGNet fold4:
+[[ 5  7  0  2]
+ [ 2 10  2  0]
+ [ 1  2  3  9]
+ [ 0  0  0 14]]
+Confusion LDA fold4:
+[[ 9  4  1  0]
+ [ 0 14  0  0]
+ [ 2  1  7  5]
+ [ 0  0  4 10]]
+Confusion ENS fold4:
+[[ 9  4  1  0]
+ [ 0 14  0  0]
+ [ 2  1  5  7]
+ [ 0  0  3 11]]
+A01 Fold 5: EEGNet acc=50.88% | LDA(CSP) acc=71.93% | Ensemble acc=70.18%
+A01 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.36      0.42        14
+  right_hand       0.48      0.80      0.60        15
+        feet       0.38      0.21      0.27        14
+      tongue       0.64      0.64      0.64        14
+
+    accuracy                           0.51        57
+   macro avg       0.50      0.50      0.48        57
+weighted avg       0.50      0.51      0.49        57
+
+A01 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       1.00      0.43      0.60        14
+  right_hand       0.71      1.00      0.83        15
+        feet       0.59      0.71      0.65        14
+      tongue       0.77      0.71      0.74        14
+
+    accuracy                           0.72        57
+   macro avg       0.77      0.71      0.70        57
+weighted avg       0.77      0.72      0.71        57
+
+A01 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       1.00      0.43      0.60        14
+  right_hand       0.71      1.00      0.83        15
+        feet       0.56      0.71      0.62        14
+      tongue       0.75      0.64      0.69        14
+
+    accuracy                           0.70        57
+   macro avg       0.75      0.70      0.69        57
+weighted avg       0.75      0.70      0.69        57
+
+Confusion EEGNet fold5:
+[[ 5  9  0  0]
+ [ 2 12  1  0]
+ [ 3  3  3  5]
+ [ 0  1  4  9]]
+Confusion LDA fold5:
+[[ 6  5  3  0]
+ [ 0 15  0  0]
+ [ 0  1 10  3]
+ [ 0  0  4 10]]
+Confusion ENS fold5:
+[[ 6  5  3  0]
+ [ 0 15  0  0]
+ [ 0  1 10  3]
+ [ 0  0  5  9]]
+A01 mean acc = 71.86%
+A02 Fold 1: EEGNet acc=37.93% | LDA(CSP) acc=62.07% | Ensemble acc=60.34%
+A02 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.28      0.33      0.30        15
+  right_hand       0.38      0.36      0.37        14
+        feet       0.73      0.53      0.62        15
+      tongue       0.25      0.29      0.27        14
+
+    accuracy                           0.38        58
+   macro avg       0.41      0.38      0.39        58
+weighted avg       0.41      0.38      0.39        58
+
+A02 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.53      0.53      0.53        15
+  right_hand       0.53      0.64      0.58        14
+        feet       0.86      0.80      0.83        15
+      tongue       0.58      0.50      0.54        14
+
+    accuracy                           0.62        58
+   macro avg       0.63      0.62      0.62        58
+weighted avg       0.63      0.62      0.62        58
+
+A02 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.47      0.48        15
+  right_hand       0.50      0.64      0.56        14
+        feet       0.86      0.80      0.83        15
+      tongue       0.58      0.50      0.54        14
+
+    accuracy                           0.60        58
+   macro avg       0.61      0.60      0.60        58
+weighted avg       0.61      0.60      0.60        58
+
+Confusion EEGNet fold1:
+[[5 4 3 3]
+ [3 5 0 6]
+ [3 1 8 3]
+ [7 3 0 4]]
+Confusion LDA fold1:
+[[ 8  6  0  1]
+ [ 3  9  0  2]
+ [ 0  1 12  2]
+ [ 4  1  2  7]]
+Confusion ENS fold1:
+[[ 7  7  0  1]
+ [ 3  9  0  2]
+ [ 0  1 12  2]
+ [ 4  1  2  7]]
+A02 Fold 2: EEGNet acc=29.31% | LDA(CSP) acc=75.86% | Ensemble acc=75.86%
+A02 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       1.00      0.13      0.24        15
+  right_hand       0.00      0.00      0.00        14
+        feet       0.00      0.00      0.00        14
+      tongue       0.27      1.00      0.43        15
+
+    accuracy                           0.29        58
+   macro avg       0.32      0.28      0.17        58
+weighted avg       0.33      0.29      0.17        58
+
+A02 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.67      0.67      0.67        15
+  right_hand       0.86      0.43      0.57        14
+        feet       0.93      0.93      0.93        14
+      tongue       0.68      1.00      0.81        15
+
+    accuracy                           0.76        58
+   macro avg       0.78      0.76      0.74        58
+weighted avg       0.78      0.76      0.74        58
+
+A02 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.71      0.67      0.69        15
+  right_hand       0.86      0.43      0.57        14
+        feet       0.93      0.93      0.93        14
+      tongue       0.65      1.00      0.79        15
+
+    accuracy                           0.76        58
+   macro avg       0.79      0.76      0.74        58
+weighted avg       0.78      0.76      0.74        58
+
+Confusion EEGNet fold2:
+[[ 2  1  0 12]
+ [ 0  0  0 14]
+ [ 0  0  0 14]
+ [ 0  0  0 15]]
+Confusion LDA fold2:
+[[10  1  0  4]
+ [ 5  6  1  2]
+ [ 0  0 13  1]
+ [ 0  0  0 15]]
+Confusion ENS fold2:
+[[10  1  0  4]
+ [ 4  6  1  3]
+ [ 0  0 13  1]
+ [ 0  0  0 15]]
+A02 Fold 3: EEGNet acc=36.21% | LDA(CSP) acc=70.69% | Ensemble acc=72.41%
+A02 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.40      0.29      0.33        14
+  right_hand       0.42      0.33      0.37        15
+        feet       0.45      0.71      0.56        14
+      tongue       0.14      0.13      0.14        15
+
+    accuracy                           0.36        58
+   macro avg       0.35      0.37      0.35        58
+weighted avg       0.35      0.36      0.35        58
+
+A02 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.56      0.71      0.62        14
+  right_hand       0.80      0.53      0.64        15
+        feet       0.76      0.93      0.84        14
+      tongue       0.77      0.67      0.71        15
+
+    accuracy                           0.71        58
+   macro avg       0.72      0.71      0.70        58
+weighted avg       0.72      0.71      0.70        58
+
+A02 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.58      0.79      0.67        14
+  right_hand       0.89      0.53      0.67        15
+        feet       0.76      0.93      0.84        14
+      tongue       0.77      0.67      0.71        15
+
+    accuracy                           0.72        58
+   macro avg       0.75      0.73      0.72        58
+weighted avg       0.75      0.72      0.72        58
+
+Confusion EEGNet fold3:
+[[ 4  3  2  5]
+ [ 1  5  4  5]
+ [ 2  0 10  2]
+ [ 3  4  6  2]]
+Confusion LDA fold3:
+[[10  2  0  2]
+ [ 6  8  1  0]
+ [ 0  0 13  1]
+ [ 2  0  3 10]]
+Confusion ENS fold3:
+[[11  1  0  2]
+ [ 6  8  1  0]
+ [ 0  0 13  1]
+ [ 2  0  3 10]]
+A02 Fold 4: EEGNet acc=43.86% | LDA(CSP) acc=70.18% | Ensemble acc=70.18%
+A02 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.36      0.29      0.32        14
+  right_hand       0.35      0.40      0.38        15
+        feet       0.61      0.79      0.69        14
+      tongue       0.36      0.29      0.32        14
+
+    accuracy                           0.44        57
+   macro avg       0.42      0.44      0.43        57
+weighted avg       0.42      0.44      0.42        57
+
+A02 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.64      0.50      0.56        14
+  right_hand       0.60      0.60      0.60        15
+        feet       0.93      0.93      0.93        14
+      tongue       0.65      0.79      0.71        14
+
+    accuracy                           0.70        57
+   macro avg       0.70      0.70      0.70        57
+weighted avg       0.70      0.70      0.70        57
+
+A02 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.64      0.50      0.56        14
+  right_hand       0.60      0.60      0.60        15
+        feet       0.93      0.93      0.93        14
+      tongue       0.65      0.79      0.71        14
+
+    accuracy                           0.70        57
+   macro avg       0.70      0.70      0.70        57
+weighted avg       0.70      0.70      0.70        57
+
+Confusion EEGNet fold4:
+[[ 4  5  2  3]
+ [ 3  6  3  3]
+ [ 1  1 11  1]
+ [ 3  5  2  4]]
+Confusion LDA fold4:
+[[ 7  5  0  2]
+ [ 2  9  0  4]
+ [ 0  1 13  0]
+ [ 2  0  1 11]]
+Confusion ENS fold4:
+[[ 7  5  0  2]
+ [ 2  9  0  4]
+ [ 0  1 13  0]
+ [ 2  0  1 11]]
+A02 Fold 5: EEGNet acc=45.61% | LDA(CSP) acc=70.18% | Ensemble acc=68.42%
+A02 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.40      0.43      0.41        14
+  right_hand       0.22      0.14      0.17        14
+        feet       0.74      0.93      0.82        15
+      tongue       0.29      0.29      0.29        14
+
+    accuracy                           0.46        57
+   macro avg       0.41      0.45      0.42        57
+weighted avg       0.42      0.46      0.43        57
+
+A02 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.71      0.59        14
+  right_hand       0.86      0.43      0.57        14
+        feet       1.00      0.87      0.93        15
+      tongue       0.65      0.79      0.71        14
+
+    accuracy                           0.70        57
+   macro avg       0.75      0.70      0.70        57
+weighted avg       0.76      0.70      0.70        57
+
+A02 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.48      0.71      0.57        14
+  right_hand       0.75      0.43      0.55        14
+        feet       0.93      0.87      0.90        15
+      tongue       0.71      0.71      0.71        14
+
+    accuracy                           0.68        57
+   macro avg       0.72      0.68      0.68        57
+weighted avg       0.72      0.68      0.69        57
+
+Confusion EEGNet fold5:
+[[ 6  4  1  3]
+ [ 3  2  3  6]
+ [ 0  0 14  1]
+ [ 6  3  1  4]]
+Confusion LDA fold5:
+[[10  1  0  3]
+ [ 7  6  0  1]
+ [ 0  0 13  2]
+ [ 3  0  0 11]]
+Confusion ENS fold5:
+[[10  2  0  2]
+ [ 7  6  0  1]
+ [ 1  0 13  1]
+ [ 3  0  1 10]]
+A02 mean acc = 69.44%
+A03 Fold 1: EEGNet acc=63.79% | LDA(CSP) acc=87.93% | Ensemble acc=84.48%
+A03 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.57      0.80      0.67        15
+  right_hand       0.83      0.71      0.77        14
+        feet       0.50      0.20      0.29        15
+      tongue       0.63      0.86      0.73        14
+
+    accuracy                           0.64        58
+   macro avg       0.63      0.64      0.61        58
+weighted avg       0.63      0.64      0.61        58
+
+A03 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.93      0.93      0.93        15
+  right_hand       0.93      1.00      0.97        14
+        feet       1.00      0.67      0.80        15
+      tongue       0.72      0.93      0.81        14
+
+    accuracy                           0.88        58
+   macro avg       0.90      0.88      0.88        58
+weighted avg       0.90      0.88      0.88        58
+
+A03 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.93      0.93      0.93        15
+  right_hand       0.93      1.00      0.97        14
+        feet       1.00      0.53      0.70        15
+      tongue       0.65      0.93      0.76        14
+
+    accuracy                           0.84        58
+   macro avg       0.88      0.85      0.84        58
+weighted avg       0.88      0.84      0.84        58
+
+Confusion EEGNet fold1:
+[[12  1  2  0]
+ [ 3 10  1  0]
+ [ 4  1  3  7]
+ [ 2  0  0 12]]
+Confusion LDA fold1:
+[[14  1  0  0]
+ [ 0 14  0  0]
+ [ 0  0 10  5]
+ [ 1  0  0 13]]
+Confusion ENS fold1:
+[[14  1  0  0]
+ [ 0 14  0  0]
+ [ 0  0  8  7]
+ [ 1  0  0 13]]
+A03 Fold 2: EEGNet acc=48.28% | LDA(CSP) acc=86.21% | Ensemble acc=87.93%
+A03 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.43      0.40      0.41        15
+  right_hand       0.36      0.64      0.46        14
+        feet       0.33      0.14      0.20        14
+      tongue       0.85      0.73      0.79        15
+
+    accuracy                           0.48        58
+   macro avg       0.49      0.48      0.47        58
+weighted avg       0.50      0.48      0.47        58
+
+A03 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       1.00      0.80      0.89        15
+  right_hand       0.92      0.86      0.89        14
+        feet       0.76      0.93      0.84        14
+      tongue       0.81      0.87      0.84        15
+
+    accuracy                           0.86        58
+   macro avg       0.88      0.86      0.86        58
+weighted avg       0.88      0.86      0.86        58
+
+A03 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.86      0.80      0.83        15
+  right_hand       0.93      0.93      0.93        14
+        feet       0.76      0.93      0.84        14
+      tongue       1.00      0.87      0.93        15
+
+    accuracy                           0.88        58
+   macro avg       0.89      0.88      0.88        58
+weighted avg       0.89      0.88      0.88        58
+
+Confusion EEGNet fold2:
+[[ 6  9  0  0]
+ [ 4  9  1  0]
+ [ 4  6  2  2]
+ [ 0  1  3 11]]
+Confusion LDA fold2:
+[[12  1  2  0]
+ [ 0 12  0  2]
+ [ 0  0 13  1]
+ [ 0  0  2 13]]
+Confusion ENS fold2:
+[[12  1  2  0]
+ [ 1 13  0  0]
+ [ 1  0 13  0]
+ [ 0  0  2 13]]
+A03 Fold 3: EEGNet acc=55.17% | LDA(CSP) acc=77.59% | Ensemble acc=77.59%
+A03 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.56      0.64      0.60        14
+  right_hand       0.50      0.40      0.44        15
+        feet       0.50      0.29      0.36        14
+      tongue       0.59      0.87      0.70        15
+
+    accuracy                           0.55        58
+   macro avg       0.54      0.55      0.53        58
+weighted avg       0.54      0.55      0.53        58
+
+A03 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.85      0.79      0.81        14
+  right_hand       0.92      0.80      0.86        15
+        feet       0.67      0.71      0.69        14
+      tongue       0.71      0.80      0.75        15
+
+    accuracy                           0.78        58
+   macro avg       0.79      0.78      0.78        58
+weighted avg       0.79      0.78      0.78        58
+
+A03 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.79      0.79      0.79        14
+  right_hand       0.92      0.80      0.86        15
+        feet       0.69      0.64      0.67        14
+      tongue       0.72      0.87      0.79        15
+
+    accuracy                           0.78        58
+   macro avg       0.78      0.77      0.77        58
+weighted avg       0.78      0.78      0.78        58
+
+Confusion EEGNet fold3:
+[[ 9  3  1  1]
+ [ 4  6  2  3]
+ [ 3  2  4  5]
+ [ 0  1  1 13]]
+Confusion LDA fold3:
+[[11  1  1  1]
+ [ 0 12  1  2]
+ [ 2  0 10  2]
+ [ 0  0  3 12]]
+Confusion ENS fold3:
+[[11  1  1  1]
+ [ 0 12  1  2]
+ [ 3  0  9  2]
+ [ 0  0  2 13]]
+A03 Fold 4: EEGNet acc=50.88% | LDA(CSP) acc=89.47% | Ensemble acc=87.72%
+A03 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.40      0.29      0.33        14
+  right_hand       0.56      0.67      0.61        15
+        feet       0.44      0.29      0.35        14
+      tongue       0.55      0.79      0.65        14
+
+    accuracy                           0.51        57
+   macro avg       0.49      0.51      0.48        57
+weighted avg       0.49      0.51      0.49        57
+
+A03 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       1.00      0.86      0.92        14
+  right_hand       1.00      0.93      0.97        15
+        feet       0.87      0.93      0.90        14
+      tongue       0.75      0.86      0.80        14
+
+    accuracy                           0.89        57
+   macro avg       0.90      0.89      0.90        57
+weighted avg       0.91      0.89      0.90        57
+
+A03 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       1.00      0.79      0.88        14
+  right_hand       0.93      0.93      0.93        15
+        feet       0.87      0.93      0.90        14
+      tongue       0.75      0.86      0.80        14
+
+    accuracy                           0.88        57
+   macro avg       0.89      0.88      0.88        57
+weighted avg       0.89      0.88      0.88        57
+
+Confusion EEGNet fold4:
+[[ 4  7  1  2]
+ [ 3 10  2  0]
+ [ 2  1  4  7]
+ [ 1  0  2 11]]
+Confusion LDA fold4:
+[[12  0  0  2]
+ [ 0 14  0  1]
+ [ 0  0 13  1]
+ [ 0  0  2 12]]
+Confusion ENS fold4:
+[[11  1  0  2]
+ [ 0 14  0  1]
+ [ 0  0 13  1]
+ [ 0  0  2 12]]
+A03 Fold 5: EEGNet acc=42.11% | LDA(CSP) acc=75.44% | Ensemble acc=73.68%
+A03 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.39      0.64      0.49        14
+  right_hand       0.40      0.29      0.33        14
+        feet       0.25      0.07      0.11        15
+      tongue       0.50      0.71      0.59        14
+
+    accuracy                           0.42        57
+   macro avg       0.39      0.43      0.38        57
+weighted avg       0.38      0.42      0.37        57
+
+A03 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.92      0.79      0.85        14
+  right_hand       1.00      0.71      0.83        14
+        feet       0.77      0.67      0.71        15
+      tongue       0.55      0.86      0.67        14
+
+    accuracy                           0.75        57
+   macro avg       0.81      0.76      0.77        57
+weighted avg       0.81      0.75      0.76        57
+
+A03 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.85      0.79      0.81        14
+  right_hand       1.00      0.71      0.83        14
+        feet       0.77      0.67      0.71        15
+      tongue       0.52      0.79      0.63        14
+
+    accuracy                           0.74        57
+   macro avg       0.78      0.74      0.75        57
+weighted avg       0.78      0.74      0.75        57
+
+Confusion EEGNet fold5:
+[[ 9  3  1  1]
+ [ 6  4  0  4]
+ [ 7  2  1  5]
+ [ 1  1  2 10]]
+Confusion LDA fold5:
+[[11  0  1  2]
+ [ 0 10  0  4]
+ [ 1  0 10  4]
+ [ 0  0  2 12]]
+Confusion ENS fold5:
+[[11  0  1  2]
+ [ 0 10  0  4]
+ [ 1  0 10  4]
+ [ 1  0  2 11]]
+A03 mean acc = 82.28%
+A04 Fold 1: EEGNet acc=39.66% | LDA(CSP) acc=62.07% | Ensemble acc=63.79%
+A04 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.33      0.93      0.48        14
+  right_hand       0.50      0.20      0.29        15
+        feet       0.75      0.21      0.33        14
+      tongue       0.50      0.27      0.35        15
+
+    accuracy                           0.40        58
+   macro avg       0.52      0.40      0.36        58
+weighted avg       0.52      0.40      0.36        58
+
+A04 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.60      0.64      0.62        14
+  right_hand       0.80      0.53      0.64        15
+        feet       0.50      0.50      0.50        14
+      tongue       0.63      0.80      0.71        15
+
+    accuracy                           0.62        58
+   macro avg       0.63      0.62      0.62        58
+weighted avg       0.64      0.62      0.62        58
+
+A04 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.61      0.79      0.69        14
+  right_hand       0.80      0.53      0.64        15
+        feet       0.50      0.43      0.46        14
+      tongue       0.67      0.80      0.73        15
+
+    accuracy                           0.64        58
+   macro avg       0.64      0.64      0.63        58
+weighted avg       0.65      0.64      0.63        58
+
+Confusion EEGNet fold1:
+[[13  0  0  1]
+ [10  3  1  1]
+ [ 9  0  3  2]
+ [ 8  3  0  4]]
+Confusion LDA fold1:
+[[ 9  0  4  1]
+ [ 2  8  1  4]
+ [ 3  2  7  2]
+ [ 1  0  2 12]]
+Confusion ENS fold1:
+[[11  0  3  0]
+ [ 2  8  1  4]
+ [ 4  2  6  2]
+ [ 1  0  2 12]]
+A04 Fold 2: EEGNet acc=29.31% | LDA(CSP) acc=44.83% | Ensemble acc=43.10%
+A04 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.12      0.14      0.13        14
+  right_hand       0.40      0.29      0.33        14
+        feet       0.27      0.20      0.23        15
+      tongue       0.38      0.53      0.44        15
+
+    accuracy                           0.29        58
+   macro avg       0.29      0.29      0.29        58
+weighted avg       0.30      0.29      0.29        58
+
+A04 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.18      0.14      0.16        14
+  right_hand       0.56      0.64      0.60        14
+        feet       0.46      0.40      0.43        15
+      tongue       0.50      0.60      0.55        15
+
+    accuracy                           0.45        58
+   macro avg       0.43      0.45      0.43        58
+weighted avg       0.43      0.45      0.44        58
+
+A04 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.18      0.14      0.16        14
+  right_hand       0.56      0.64      0.60        14
+        feet       0.42      0.33      0.37        15
+      tongue       0.47      0.60      0.53        15
+
+    accuracy                           0.43        58
+   macro avg       0.41      0.43      0.41        58
+weighted avg       0.41      0.43      0.42        58
+
+Confusion EEGNet fold2:
+[[2 2 4 6]
+ [5 4 3 2]
+ [5 2 3 5]
+ [4 2 1 8]]
+Confusion LDA fold2:
+[[2 3 4 5]
+ [1 9 1 3]
+ [7 1 6 1]
+ [1 3 2 9]]
+Confusion ENS fold2:
+[[2 3 4 5]
+ [1 9 1 3]
+ [7 1 5 2]
+ [1 3 2 9]]
+A04 Fold 3: EEGNet acc=34.48% | LDA(CSP) acc=50.00% | Ensemble acc=48.28%
+A04 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.36      0.67      0.47        15
+  right_hand       0.27      0.29      0.28        14
+        feet       0.43      0.20      0.27        15
+      tongue       0.38      0.21      0.27        14
+
+    accuracy                           0.34        58
+   macro avg       0.36      0.34      0.32        58
+weighted avg       0.36      0.34      0.32        58
+
+A04 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.47      0.53      0.50        15
+  right_hand       0.50      0.57      0.53        14
+        feet       0.67      0.40      0.50        15
+      tongue       0.44      0.50      0.47        14
+
+    accuracy                           0.50        58
+   macro avg       0.52      0.50      0.50        58
+weighted avg       0.52      0.50      0.50        58
+
+A04 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.44      0.53      0.48        15
+  right_hand       0.50      0.57      0.53        14
+        feet       0.67      0.40      0.50        15
+      tongue       0.40      0.43      0.41        14
+
+    accuracy                           0.48        58
+   macro avg       0.50      0.48      0.48        58
+weighted avg       0.50      0.48      0.48        58
+
+Confusion EEGNet fold3:
+[[10  3  0  2]
+ [ 7  4  1  2]
+ [ 7  4  3  1]
+ [ 4  4  3  3]]
+Confusion LDA fold3:
+[[8 4 0 3]
+ [1 8 1 4]
+ [6 1 6 2]
+ [2 3 2 7]]
+Confusion ENS fold3:
+[[8 4 0 3]
+ [1 8 1 4]
+ [6 1 6 2]
+ [3 3 2 6]]
+A04 Fold 4: EEGNet acc=33.33% | LDA(CSP) acc=45.61% | Ensemble acc=45.61%
+A04 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.44      0.47      0.45        15
+  right_hand       0.15      0.14      0.15        14
+        feet       0.43      0.21      0.29        14
+      tongue       0.33      0.50      0.40        14
+
+    accuracy                           0.33        57
+   macro avg       0.34      0.33      0.32        57
+weighted avg       0.34      0.33      0.32        57
+
+A04 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.53      0.52        15
+  right_hand       0.42      0.36      0.38        14
+        feet       0.50      0.36      0.42        14
+      tongue       0.42      0.57      0.48        14
+
+    accuracy                           0.46        57
+   macro avg       0.46      0.45      0.45        57
+weighted avg       0.46      0.46      0.45        57
+
+A04 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.42      0.53      0.47        15
+  right_hand       0.45      0.36      0.40        14
+        feet       0.50      0.21      0.30        14
+      tongue       0.48      0.71      0.57        14
+
+    accuracy                           0.46        57
+   macro avg       0.46      0.45      0.44        57
+weighted avg       0.46      0.46      0.44        57
+
+Confusion EEGNet fold4:
+[[7 5 1 2]
+ [4 2 1 7]
+ [4 2 3 5]
+ [1 4 2 7]]
+Confusion LDA fold4:
+[[8 2 3 2]
+ [1 5 1 7]
+ [5 2 5 2]
+ [2 3 1 8]]
+Confusion ENS fold4:
+[[ 8  3  3  1]
+ [ 2  5  0  7]
+ [ 7  1  3  3]
+ [ 2  2  0 10]]
+A04 Fold 5: EEGNet acc=31.58% | LDA(CSP) acc=43.86% | Ensemble acc=49.12%
+A04 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.28      0.64      0.39        14
+  right_hand       0.25      0.27      0.26        15
+        feet       0.80      0.29      0.42        14
+      tongue       0.25      0.07      0.11        14
+
+    accuracy                           0.32        57
+   macro avg       0.40      0.32      0.30        57
+weighted avg       0.39      0.32      0.29        57
+
+A04 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.57      0.53        14
+  right_hand       0.64      0.47      0.54        15
+        feet       0.35      0.43      0.39        14
+      tongue       0.31      0.29      0.30        14
+
+    accuracy                           0.44        57
+   macro avg       0.45      0.44      0.44        57
+weighted avg       0.45      0.44      0.44        57
+
+A04 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.45      0.64      0.53        14
+  right_hand       0.75      0.60      0.67        15
+        feet       0.43      0.43      0.43        14
+      tongue       0.36      0.29      0.32        14
+
+    accuracy                           0.49        57
+   macro avg       0.50      0.49      0.49        57
+weighted avg       0.50      0.49      0.49        57
+
+Confusion EEGNet fold5:
+[[ 9  4  0  1]
+ [10  4  0  1]
+ [ 5  4  4  1]
+ [ 8  4  1  1]]
+Confusion LDA fold5:
+[[8 1 2 3]
+ [5 7 2 1]
+ [1 2 6 5]
+ [2 1 7 4]]
+Confusion ENS fold5:
+[[9 1 2 2]
+ [5 9 1 0]
+ [1 2 6 5]
+ [5 0 5 4]]
+A04 mean acc = 49.98%
+A05 Fold 1: EEGNet acc=34.48% | LDA(CSP) acc=29.31% | Ensemble acc=34.48%
+A05 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.39      0.47      0.42        15
+  right_hand       0.23      0.21      0.22        14
+        feet       0.35      0.40      0.38        15
+      tongue       0.40      0.29      0.33        14
+
+    accuracy                           0.34        58
+   macro avg       0.34      0.34      0.34        58
+weighted avg       0.34      0.34      0.34        58
+
+A05 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.32      0.53      0.40        15
+  right_hand       0.18      0.21      0.19        14
+        feet       0.00      0.00      0.00        15
+      tongue       0.46      0.43      0.44        14
+
+    accuracy                           0.29        58
+   macro avg       0.24      0.29      0.26        58
+weighted avg       0.24      0.29      0.26        58
+
+A05 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.33      0.60      0.43        15
+  right_hand       0.17      0.14      0.15        14
+        feet       0.33      0.13      0.19        15
+      tongue       0.54      0.50      0.52        14
+
+    accuracy                           0.34        58
+   macro avg       0.34      0.34      0.32        58
+weighted avg       0.34      0.34      0.32        58
+
+Confusion EEGNet fold1:
+[[7 3 2 3]
+ [6 3 4 1]
+ [4 3 6 2]
+ [1 4 5 4]]
+Confusion LDA fold1:
+[[8 4 2 1]
+ [8 3 1 2]
+ [6 5 0 4]
+ [3 5 0 6]]
+Confusion ENS fold1:
+[[9 4 1 1]
+ [9 2 2 1]
+ [6 3 2 4]
+ [3 3 1 7]]
+A05 Fold 2: EEGNet acc=36.21% | LDA(CSP) acc=32.76% | Ensemble acc=36.21%
+A05 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.33      0.27      0.30        15
+  right_hand       0.31      0.29      0.30        14
+        feet       0.40      0.43      0.41        14
+      tongue       0.39      0.47      0.42        15
+
+    accuracy                           0.36        58
+   macro avg       0.36      0.36      0.36        58
+weighted avg       0.36      0.36      0.36        58
+
+A05 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.33      0.33      0.33        15
+  right_hand       0.38      0.43      0.40        14
+        feet       0.08      0.07      0.07        14
+      tongue       0.50      0.47      0.48        15
+
+    accuracy                           0.33        58
+   macro avg       0.32      0.32      0.32        58
+weighted avg       0.32      0.33      0.33        58
+
+A05 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.38      0.40      0.39        15
+  right_hand       0.40      0.43      0.41        14
+        feet       0.14      0.14      0.14        14
+      tongue       0.54      0.47      0.50        15
+
+    accuracy                           0.36        58
+   macro avg       0.36      0.36      0.36        58
+weighted avg       0.37      0.36      0.36        58
+
+Confusion EEGNet fold2:
+[[4 5 3 3]
+ [2 4 4 4]
+ [1 3 6 4]
+ [5 1 2 7]]
+Confusion LDA fold2:
+[[5 3 5 2]
+ [2 6 5 1]
+ [4 5 1 4]
+ [4 2 2 7]]
+Confusion ENS fold2:
+[[6 3 5 1]
+ [2 6 5 1]
+ [4 4 2 4]
+ [4 2 2 7]]
+A05 Fold 3: EEGNet acc=27.59% | LDA(CSP) acc=43.10% | Ensemble acc=36.21%
+A05 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.11      0.07      0.09        14
+  right_hand       0.33      0.53      0.41        15
+        feet       0.30      0.21      0.25        14
+      tongue       0.27      0.27      0.27        15
+
+    accuracy                           0.28        58
+   macro avg       0.25      0.27      0.25        58
+weighted avg       0.25      0.28      0.26        58
+
+A05 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.47      0.57      0.52        14
+  right_hand       0.50      0.40      0.44        15
+        feet       0.36      0.36      0.36        14
+      tongue       0.40      0.40      0.40        15
+
+    accuracy                           0.43        58
+   macro avg       0.43      0.43      0.43        58
+weighted avg       0.43      0.43      0.43        58
+
+A05 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.31      0.36      0.33        14
+  right_hand       0.40      0.40      0.40        15
+        feet       0.36      0.29      0.32        14
+      tongue       0.38      0.40      0.39        15
+
+    accuracy                           0.36        58
+   macro avg       0.36      0.36      0.36        58
+weighted avg       0.36      0.36      0.36        58
+
+Confusion EEGNet fold3:
+[[1 8 1 4]
+ [1 8 3 3]
+ [3 4 3 4]
+ [4 4 3 4]]
+Confusion LDA fold3:
+[[8 3 1 2]
+ [4 6 3 2]
+ [3 1 5 5]
+ [2 2 5 6]]
+Confusion ENS fold3:
+[[5 5 1 3]
+ [4 6 2 3]
+ [3 3 4 4]
+ [4 1 4 6]]
+A05 Fold 4: EEGNet acc=36.84% | LDA(CSP) acc=42.11% | Ensemble acc=47.37%
+A05 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.38      0.43      0.40        14
+  right_hand       0.44      0.53      0.48        15
+        feet       0.40      0.29      0.33        14
+      tongue       0.23      0.21      0.22        14
+
+    accuracy                           0.37        57
+   macro avg       0.36      0.37      0.36        57
+weighted avg       0.36      0.37      0.36        57
+
+A05 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.43      0.43      0.43        14
+  right_hand       0.30      0.20      0.24        15
+        feet       0.29      0.29      0.29        14
+      tongue       0.58      0.79      0.67        14
+
+    accuracy                           0.42        57
+   macro avg       0.40      0.42      0.41        57
+weighted avg       0.40      0.42      0.40        57
+
+A05 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.44      0.50      0.47        14
+  right_hand       0.50      0.33      0.40        15
+        feet       0.36      0.36      0.36        14
+      tongue       0.59      0.71      0.65        14
+
+    accuracy                           0.47        57
+   macro avg       0.47      0.48      0.47        57
+weighted avg       0.47      0.47      0.47        57
+
+Confusion EEGNet fold4:
+[[6 1 4 3]
+ [2 8 1 4]
+ [4 3 4 3]
+ [4 6 1 3]]
+Confusion LDA fold4:
+[[ 6  3  4  1]
+ [ 4  3  4  4]
+ [ 3  4  4  3]
+ [ 1  0  2 11]]
+Confusion ENS fold4:
+[[ 7  3  4  0]
+ [ 5  5  2  3]
+ [ 3  2  5  4]
+ [ 1  0  3 10]]
+A05 Fold 5: EEGNet acc=43.86% | LDA(CSP) acc=40.35% | Ensemble acc=43.86%
+A05 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.20      0.14      0.17        14
+  right_hand       0.41      0.50      0.45        14
+        feet       0.50      0.60      0.55        15
+      tongue       0.58      0.50      0.54        14
+
+    accuracy                           0.44        57
+   macro avg       0.42      0.44      0.43        57
+weighted avg       0.43      0.44      0.43        57
+
+A05 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.33      0.43      0.38        14
+  right_hand       0.27      0.29      0.28        14
+        feet       0.45      0.33      0.38        15
+      tongue       0.62      0.57      0.59        14
+
+    accuracy                           0.40        57
+   macro avg       0.42      0.40      0.41        57
+weighted avg       0.42      0.40      0.41        57
+
+A05 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.33      0.36      0.34        14
+  right_hand       0.33      0.36      0.34        14
+        feet       0.46      0.40      0.43        15
+      tongue       0.64      0.64      0.64        14
+
+    accuracy                           0.44        57
+   macro avg       0.44      0.44      0.44        57
+weighted avg       0.44      0.44      0.44        57
+
+Confusion EEGNet fold5:
+[[2 5 4 3]
+ [3 7 2 2]
+ [2 4 9 0]
+ [3 1 3 7]]
+Confusion LDA fold5:
+[[6 4 2 2]
+ [6 4 2 2]
+ [4 5 5 1]
+ [2 2 2 8]]
+Confusion ENS fold5:
+[[5 5 2 2]
+ [4 5 3 2]
+ [4 4 6 1]
+ [2 1 2 9]]
+A05 mean acc = 39.62%
+A06 Fold 1: EEGNet acc=37.93% | LDA(CSP) acc=44.83% | Ensemble acc=44.83%
+A06 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.39      0.47      0.42        15
+  right_hand       0.33      0.36      0.34        14
+        feet       0.36      0.36      0.36        14
+      tongue       0.45      0.33      0.38        15
+
+    accuracy                           0.38        58
+   macro avg       0.38      0.38      0.38        58
+weighted avg       0.38      0.38      0.38        58
+
+A06 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.45      0.67      0.54        15
+  right_hand       0.40      0.29      0.33        14
+        feet       0.50      0.36      0.42        14
+      tongue       0.44      0.47      0.45        15
+
+    accuracy                           0.45        58
+   macro avg       0.45      0.44      0.44        58
+weighted avg       0.45      0.45      0.44        58
+
+A06 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.48      0.67      0.56        15
+  right_hand       0.44      0.29      0.35        14
+        feet       0.45      0.36      0.40        14
+      tongue       0.41      0.47      0.44        15
+
+    accuracy                           0.45        58
+   macro avg       0.45      0.44      0.44        58
+weighted avg       0.45      0.45      0.44        58
+
+Confusion EEGNet fold1:
+[[7 5 1 2]
+ [6 5 2 1]
+ [3 3 5 3]
+ [2 2 6 5]]
+Confusion LDA fold1:
+[[10  3  0  2]
+ [ 2  4  4  4]
+ [ 5  1  5  3]
+ [ 5  2  1  7]]
+Confusion ENS fold1:
+[[10  3  0  2]
+ [ 2  4  3  5]
+ [ 5  1  5  3]
+ [ 4  1  3  7]]
+A06 Fold 2: EEGNet acc=29.31% | LDA(CSP) acc=43.10% | Ensemble acc=43.10%
+A06 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.30      0.93      0.45        14
+  right_hand       0.33      0.07      0.12        14
+        feet       0.00      0.00      0.00        15
+      tongue       0.33      0.20      0.25        15
+
+    accuracy                           0.29        58
+   macro avg       0.24      0.30      0.20        58
+weighted avg       0.24      0.29      0.20        58
+
+A06 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.33      0.43      0.38        14
+  right_hand       0.60      0.64      0.62        14
+        feet       0.11      0.07      0.08        15
+      tongue       0.56      0.60      0.58        15
+
+    accuracy                           0.43        58
+   macro avg       0.40      0.43      0.41        58
+weighted avg       0.40      0.43      0.41        58
+
+A06 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.32      0.43      0.36        14
+  right_hand       0.60      0.64      0.62        14
+        feet       0.11      0.07      0.08        15
+      tongue       0.60      0.60      0.60        15
+
+    accuracy                           0.43        58
+   macro avg       0.41      0.43      0.42        58
+weighted avg       0.40      0.43      0.41        58
+
+Confusion EEGNet fold2:
+[[13  0  1  0]
+ [ 9  1  0  4]
+ [12  1  0  2]
+ [10  1  1  3]]
+Confusion LDA fold2:
+[[6 2 5 1]
+ [2 9 1 2]
+ [8 2 1 4]
+ [2 2 2 9]]
+Confusion ENS fold2:
+[[6 2 5 1]
+ [2 9 1 2]
+ [9 2 1 3]
+ [2 2 2 9]]
+A06 Fold 3: EEGNet acc=31.03% | LDA(CSP) acc=41.38% | Ensemble acc=43.10%
+A06 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.26      0.50      0.34        14
+  right_hand       0.18      0.13      0.15        15
+        feet       0.50      0.33      0.40        15
+      tongue       0.40      0.29      0.33        14
+
+    accuracy                           0.31        58
+   macro avg       0.34      0.31      0.31        58
+weighted avg       0.34      0.31      0.31        58
+
+A06 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.41      0.50      0.45        14
+  right_hand       0.36      0.53      0.43        15
+        feet       0.50      0.33      0.40        15
+      tongue       0.44      0.29      0.35        14
+
+    accuracy                           0.41        58
+   macro avg       0.43      0.41      0.41        58
+weighted avg       0.43      0.41      0.41        58
+
+A06 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.38      0.64      0.47        14
+  right_hand       0.41      0.47      0.44        15
+        feet       0.56      0.33      0.42        15
+      tongue       0.50      0.29      0.36        14
+
+    accuracy                           0.43        58
+   macro avg       0.46      0.43      0.42        58
+weighted avg       0.46      0.43      0.42        58
+
+Confusion EEGNet fold3:
+[[ 7  5  2  0]
+ [10  2  0  3]
+ [ 5  2  5  3]
+ [ 5  2  3  4]]
+Confusion LDA fold3:
+[[7 4 2 1]
+ [4 8 1 2]
+ [3 5 5 2]
+ [3 5 2 4]]
+Confusion ENS fold3:
+[[9 3 1 1]
+ [6 7 1 1]
+ [6 2 5 2]
+ [3 5 2 4]]
+A06 Fold 4: EEGNet acc=29.82% | LDA(CSP) acc=49.12% | Ensemble acc=45.61%
+A06 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.32      0.79      0.46        14
+  right_hand       0.20      0.13      0.16        15
+        feet       0.38      0.21      0.27        14
+      tongue       0.20      0.07      0.11        14
+
+    accuracy                           0.30        57
+   macro avg       0.27      0.30      0.25        57
+weighted avg       0.27      0.30      0.25        57
+
+A06 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.64      0.50      0.56        14
+  right_hand       0.42      0.33      0.37        15
+        feet       0.53      0.57      0.55        14
+      tongue       0.42      0.57      0.48        14
+
+    accuracy                           0.49        57
+   macro avg       0.50      0.49      0.49        57
+weighted avg       0.50      0.49      0.49        57
+
+A06 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.53      0.64      0.58        14
+  right_hand       0.45      0.33      0.38        15
+        feet       0.50      0.50      0.50        14
+      tongue       0.33      0.36      0.34        14
+
+    accuracy                           0.46        57
+   macro avg       0.45      0.46      0.45        57
+weighted avg       0.45      0.46      0.45        57
+
+Confusion EEGNet fold4:
+[[11  1  1  1]
+ [ 9  2  2  2]
+ [ 8  2  3  1]
+ [ 6  5  2  1]]
+Confusion LDA fold4:
+[[7 1 1 5]
+ [2 5 5 3]
+ [1 2 8 3]
+ [1 4 1 8]]
+Confusion ENS fold4:
+[[9 0 1 4]
+ [2 5 5 3]
+ [2 2 7 3]
+ [4 4 1 5]]
+A06 Fold 5: EEGNet acc=35.09% | LDA(CSP) acc=49.12% | Ensemble acc=47.37%
+A06 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.42      0.53      0.47        15
+  right_hand       0.33      0.29      0.31        14
+        feet       0.36      0.29      0.32        14
+      tongue       0.27      0.29      0.28        14
+
+    accuracy                           0.35        57
+   macro avg       0.35      0.35      0.34        57
+weighted avg       0.35      0.35      0.35        57
+
+A06 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.47      0.48        15
+  right_hand       0.39      0.50      0.44        14
+        feet       0.62      0.57      0.59        14
+      tongue       0.50      0.43      0.46        14
+
+    accuracy                           0.49        57
+   macro avg       0.50      0.49      0.49        57
+weighted avg       0.50      0.49      0.49        57
+
+A06 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.47      0.48        15
+  right_hand       0.39      0.50      0.44        14
+        feet       0.64      0.50      0.56        14
+      tongue       0.43      0.43      0.43        14
+
+    accuracy                           0.47        57
+   macro avg       0.49      0.47      0.48        57
+weighted avg       0.49      0.47      0.48        57
+
+Confusion EEGNet fold5:
+[[8 1 3 3]
+ [3 4 3 4]
+ [4 2 4 4]
+ [4 5 1 4]]
+Confusion LDA fold5:
+[[7 5 2 1]
+ [4 7 1 2]
+ [1 2 8 3]
+ [2 4 2 6]]
+Confusion ENS fold5:
+[[7 5 2 1]
+ [4 7 1 2]
+ [1 1 7 5]
+ [2 5 1 6]]
+A06 mean acc = 44.80%
+A07 Fold 1: EEGNet acc=58.62% | LDA(CSP) acc=77.59% | Ensemble acc=77.59%
+A07 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.44      0.73      0.55        15
+  right_hand       0.43      0.21      0.29        14
+        feet       0.75      0.40      0.52        15
+      tongue       0.78      1.00      0.88        14
+
+    accuracy                           0.59        58
+   macro avg       0.60      0.59      0.56        58
+weighted avg       0.60      0.59      0.56        58
+
+A07 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.69      0.73      0.71        15
+  right_hand       0.69      0.64      0.67        14
+        feet       0.82      0.93      0.88        15
+      tongue       0.92      0.79      0.85        14
+
+    accuracy                           0.78        58
+   macro avg       0.78      0.77      0.77        58
+weighted avg       0.78      0.78      0.77        58
+
+A07 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.69      0.73      0.71        15
+  right_hand       0.69      0.64      0.67        14
+        feet       0.82      0.93      0.88        15
+      tongue       0.92      0.79      0.85        14
+
+    accuracy                           0.78        58
+   macro avg       0.78      0.77      0.77        58
+weighted avg       0.78      0.78      0.77        58
+
+Confusion EEGNet fold1:
+[[11  2  1  1]
+ [10  3  1  0]
+ [ 4  2  6  3]
+ [ 0  0  0 14]]
+Confusion LDA fold1:
+[[11  4  0  0]
+ [ 5  9  0  0]
+ [ 0  0 14  1]
+ [ 0  0  3 11]]
+Confusion ENS fold1:
+[[11  4  0  0]
+ [ 5  9  0  0]
+ [ 0  0 14  1]
+ [ 0  0  3 11]]
+A07 Fold 2: EEGNet acc=56.90% | LDA(CSP) acc=77.59% | Ensemble acc=77.59%
+A07 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.47      0.93      0.62        15
+  right_hand       0.38      0.21      0.27        14
+        feet       0.75      0.43      0.55        14
+      tongue       0.83      0.67      0.74        15
+
+    accuracy                           0.57        58
+   macro avg       0.61      0.56      0.55        58
+weighted avg       0.61      0.57      0.55        58
+
+A07 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.68      0.87      0.76        15
+  right_hand       0.75      0.64      0.69        14
+        feet       0.79      0.79      0.79        14
+      tongue       0.92      0.80      0.86        15
+
+    accuracy                           0.78        58
+   macro avg       0.79      0.77      0.77        58
+weighted avg       0.79      0.78      0.78        58
+
+A07 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.68      0.87      0.76        15
+  right_hand       0.75      0.64      0.69        14
+        feet       0.79      0.79      0.79        14
+      tongue       0.92      0.80      0.86        15
+
+    accuracy                           0.78        58
+   macro avg       0.79      0.77      0.77        58
+weighted avg       0.79      0.78      0.78        58
+
+Confusion EEGNet fold2:
+[[14  1  0  0]
+ [10  3  0  1]
+ [ 4  3  6  1]
+ [ 2  1  2 10]]
+Confusion LDA fold2:
+[[13  2  0  0]
+ [ 5  9  0  0]
+ [ 1  1 11  1]
+ [ 0  0  3 12]]
+Confusion ENS fold2:
+[[13  2  0  0]
+ [ 5  9  0  0]
+ [ 1  1 11  1]
+ [ 0  0  3 12]]
+A07 Fold 3: EEGNet acc=43.10% | LDA(CSP) acc=72.41% | Ensemble acc=68.97%
+A07 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.50      0.64      0.56        14
+  right_hand       0.56      0.33      0.42        15
+        feet       0.30      0.21      0.25        14
+      tongue       0.38      0.53      0.44        15
+
+    accuracy                           0.43        58
+   macro avg       0.43      0.43      0.42        58
+weighted avg       0.44      0.43      0.42        58
+
+A07 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.75      0.86      0.80        14
+  right_hand       0.90      0.60      0.72        15
+        feet       0.63      0.86      0.73        14
+      tongue       0.69      0.60      0.64        15
+
+    accuracy                           0.72        58
+   macro avg       0.74      0.73      0.72        58
+weighted avg       0.75      0.72      0.72        58
+
+A07 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.75      0.86      0.80        14
+  right_hand       0.89      0.53      0.67        15
+        feet       0.63      0.86      0.73        14
+      tongue       0.57      0.53      0.55        15
+
+    accuracy                           0.69        58
+   macro avg       0.71      0.70      0.69        58
+weighted avg       0.71      0.69      0.68        58
+
+Confusion EEGNet fold3:
+[[9 2 1 2]
+ [4 5 3 3]
+ [1 2 3 8]
+ [4 0 3 8]]
+Confusion LDA fold3:
+[[12  0  2  0]
+ [ 4  9  0  2]
+ [ 0  0 12  2]
+ [ 0  1  5  9]]
+Confusion ENS fold3:
+[[12  0  1  1]
+ [ 4  8  0  3]
+ [ 0  0 12  2]
+ [ 0  1  6  8]]
+A07 Fold 4: EEGNet acc=54.39% | LDA(CSP) acc=80.70% | Ensemble acc=82.46%
+A07 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.47      1.00      0.64        14
+  right_hand       0.75      0.40      0.52        15
+        feet       0.36      0.29      0.32        14
+      tongue       0.88      0.50      0.64        14
+
+    accuracy                           0.54        57
+   macro avg       0.61      0.55      0.53        57
+weighted avg       0.62      0.54      0.53        57
+
+A07 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.71      0.86      0.77        14
+  right_hand       0.75      0.60      0.67        15
+        feet       0.92      0.86      0.89        14
+      tongue       0.87      0.93      0.90        14
+
+    accuracy                           0.81        57
+   macro avg       0.81      0.81      0.81        57
+weighted avg       0.81      0.81      0.80        57
+
+A07 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.70      1.00      0.82        14
+  right_hand       0.89      0.53      0.67        15
+        feet       0.92      0.86      0.89        14
+      tongue       0.87      0.93      0.90        14
+
+    accuracy                           0.82        57
+   macro avg       0.84      0.83      0.82        57
+weighted avg       0.85      0.82      0.82        57
+
+Confusion EEGNet fold4:
+[[14  0  0  0]
+ [ 6  6  3  0]
+ [ 7  2  4  1]
+ [ 3  0  4  7]]
+Confusion LDA fold4:
+[[12  2  0  0]
+ [ 5  9  0  1]
+ [ 0  1 12  1]
+ [ 0  0  1 13]]
+Confusion ENS fold4:
+[[14  0  0  0]
+ [ 6  8  0  1]
+ [ 0  1 12  1]
+ [ 0  0  1 13]]
+A07 Fold 5: EEGNet acc=50.88% | LDA(CSP) acc=80.70% | Ensemble acc=75.44%
+A07 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.57      0.57      0.57        14
+  right_hand       0.33      0.29      0.31        14
+        feet       0.50      0.40      0.44        15
+      tongue       0.58      0.79      0.67        14
+
+    accuracy                           0.51        57
+   macro avg       0.50      0.51      0.50        57
+weighted avg       0.50      0.51      0.50        57
+
+A07 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.86      0.86      0.86        14
+  right_hand       0.75      0.86      0.80        14
+        feet       0.79      0.73      0.76        15
+      tongue       0.85      0.79      0.81        14
+
+    accuracy                           0.81        57
+   macro avg       0.81      0.81      0.81        57
+weighted avg       0.81      0.81      0.81        57
+
+A07 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.79      0.79      0.79        14
+  right_hand       0.69      0.79      0.73        14
+        feet       0.77      0.67      0.71        15
+      tongue       0.79      0.79      0.79        14
+
+    accuracy                           0.75        57
+   macro avg       0.76      0.76      0.75        57
+weighted avg       0.76      0.75      0.75        57
+
+Confusion EEGNet fold5:
+[[ 8  3  1  2]
+ [ 4  4  4  2]
+ [ 2  3  6  4]
+ [ 0  2  1 11]]
+Confusion LDA fold5:
+[[12  1  1  0]
+ [ 2 12  0  0]
+ [ 0  2 11  2]
+ [ 0  1  2 11]]
+Confusion ENS fold5:
+[[11  2  1  0]
+ [ 3 11  0  0]
+ [ 0  2 10  3]
+ [ 0  1  2 11]]
+A07 mean acc = 76.41%
+A08 Fold 1: EEGNet acc=60.34% | LDA(CSP) acc=84.48% | Ensemble acc=82.76%
+A08 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.62      0.87      0.72        15
+  right_hand       0.67      0.43      0.52        14
+        feet       0.40      0.27      0.32        15
+      tongue       0.67      0.86      0.75        14
+
+    accuracy                           0.60        58
+   macro avg       0.59      0.60      0.58        58
+weighted avg       0.59      0.60      0.58        58
+
+A08 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.87      0.87      0.87        15
+  right_hand       0.71      0.86      0.77        14
+        feet       0.86      0.80      0.83        15
+      tongue       1.00      0.86      0.92        14
+
+    accuracy                           0.84        58
+   macro avg       0.86      0.85      0.85        58
+weighted avg       0.86      0.84      0.85        58
+
+A08 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.75      0.80      0.77        15
+  right_hand       0.80      0.86      0.83        14
+        feet       0.79      0.73      0.76        15
+      tongue       1.00      0.93      0.96        14
+
+    accuracy                           0.83        58
+   macro avg       0.83      0.83      0.83        58
+weighted avg       0.83      0.83      0.83        58
+
+Confusion EEGNet fold1:
+[[13  0  2  0]
+ [ 3  6  4  1]
+ [ 3  3  4  5]
+ [ 2  0  0 12]]
+Confusion LDA fold1:
+[[13  2  0  0]
+ [ 1 12  1  0]
+ [ 1  2 12  0]
+ [ 0  1  1 12]]
+Confusion ENS fold1:
+[[12  2  1  0]
+ [ 1 12  1  0]
+ [ 3  1 11  0]
+ [ 0  0  1 13]]
+A08 Fold 2: EEGNet acc=58.62% | LDA(CSP) acc=72.41% | Ensemble acc=75.86%
+A08 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.62      0.67      0.65        15
+  right_hand       0.54      0.50      0.52        14
+        feet       0.43      0.21      0.29        14
+      tongue       0.64      0.93      0.76        15
+
+    accuracy                           0.59        58
+   macro avg       0.56      0.58      0.55        58
+weighted avg       0.56      0.59      0.56        58
+
+A08 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.79      0.73      0.76        15
+  right_hand       0.69      0.79      0.73        14
+        feet       0.46      0.43      0.44        14
+      tongue       0.93      0.93      0.93        15
+
+    accuracy                           0.72        58
+   macro avg       0.72      0.72      0.72        58
+weighted avg       0.72      0.72      0.72        58
+
+A08 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.79      0.73      0.76        15
+  right_hand       0.85      0.79      0.81        14
+        feet       0.53      0.57      0.55        14
+      tongue       0.88      0.93      0.90        15
+
+    accuracy                           0.76        58
+   macro avg       0.76      0.76      0.76        58
+weighted avg       0.76      0.76      0.76        58
+
+Confusion EEGNet fold2:
+[[10  1  3  1]
+ [ 3  7  1  3]
+ [ 3  4  3  4]
+ [ 0  1  0 14]]
+Confusion LDA fold2:
+[[11  0  4  0]
+ [ 1 11  2  0]
+ [ 2  5  6  1]
+ [ 0  0  1 14]]
+Confusion ENS fold2:
+[[11  0  4  0]
+ [ 1 11  2  0]
+ [ 2  2  8  2]
+ [ 0  0  1 14]]
+A08 Fold 3: EEGNet acc=56.90% | LDA(CSP) acc=72.41% | Ensemble acc=70.69%
+A08 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.56      0.64      0.60        14
+  right_hand       0.55      0.40      0.46        15
+        feet       0.50      0.36      0.42        14
+      tongue       0.62      0.87      0.72        15
+
+    accuracy                           0.57        58
+   macro avg       0.56      0.57      0.55        58
+weighted avg       0.56      0.57      0.55        58
+
+A08 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.73      0.57      0.64        14
+  right_hand       0.71      0.67      0.69        15
+        feet       0.62      0.71      0.67        14
+      tongue       0.82      0.93      0.88        15
+
+    accuracy                           0.72        58
+   macro avg       0.72      0.72      0.72        58
+weighted avg       0.72      0.72      0.72        58
+
+A08 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.73      0.57      0.64        14
+  right_hand       0.69      0.60      0.64        15
+        feet       0.67      0.71      0.69        14
+      tongue       0.74      0.93      0.82        15
+
+    accuracy                           0.71        58
+   macro avg       0.71      0.70      0.70        58
+weighted avg       0.71      0.71      0.70        58
+
+Confusion EEGNet fold3:
+[[ 9  1  1  3]
+ [ 3  6  3  3]
+ [ 3  4  5  2]
+ [ 1  0  1 13]]
+Confusion LDA fold3:
+[[ 8  3  2  1]
+ [ 1 10  3  1]
+ [ 2  1 10  1]
+ [ 0  0  1 14]]
+Confusion ENS fold3:
+[[ 8  3  1  2]
+ [ 1  9  3  2]
+ [ 2  1 10  1]
+ [ 0  0  1 14]]
+A08 Fold 4: EEGNet acc=57.89% | LDA(CSP) acc=75.44% | Ensemble acc=77.19%
+A08 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.53      0.64      0.58        14
+  right_hand       0.64      0.60      0.62        15
+        feet       0.47      0.50      0.48        14
+      tongue       0.73      0.57      0.64        14
+
+    accuracy                           0.58        57
+   macro avg       0.59      0.58      0.58        57
+weighted avg       0.59      0.58      0.58        57
+
+A08 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.77      0.71      0.74        14
+  right_hand       0.72      0.87      0.79        15
+        feet       0.71      0.71      0.71        14
+      tongue       0.83      0.71      0.77        14
+
+    accuracy                           0.75        57
+   macro avg       0.76      0.75      0.75        57
+weighted avg       0.76      0.75      0.75        57
+
+A08 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.71      0.71      0.71        14
+  right_hand       0.76      0.87      0.81        15
+        feet       0.79      0.79      0.79        14
+      tongue       0.83      0.71      0.77        14
+
+    accuracy                           0.77        57
+   macro avg       0.77      0.77      0.77        57
+weighted avg       0.77      0.77      0.77        57
+
+Confusion EEGNet fold4:
+[[9 2 3 0]
+ [2 9 3 1]
+ [3 2 7 2]
+ [3 1 2 8]]
+Confusion LDA fold4:
+[[10  1  2  1]
+ [ 0 13  1  1]
+ [ 3  1 10  0]
+ [ 0  3  1 10]]
+Confusion ENS fold4:
+[[10  1  2  1]
+ [ 0 13  1  1]
+ [ 3  0 11  0]
+ [ 1  3  0 10]]
+A08 Fold 5: EEGNet acc=45.61% | LDA(CSP) acc=78.95% | Ensemble acc=80.70%
+A08 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.43      0.86      0.57        14
+  right_hand       0.38      0.36      0.37        14
+        feet       0.33      0.13      0.19        15
+      tongue       0.70      0.50      0.58        14
+
+    accuracy                           0.46        57
+   macro avg       0.46      0.46      0.43        57
+weighted avg       0.46      0.46      0.42        57
+
+A08 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.92      0.79      0.85        14
+  right_hand       0.80      0.86      0.83        14
+        feet       0.61      0.73      0.67        15
+      tongue       0.92      0.79      0.85        14
+
+    accuracy                           0.79        57
+   macro avg       0.81      0.79      0.80        57
+weighted avg       0.81      0.79      0.79        57
+
+A08 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.86      0.86      0.86        14
+  right_hand       0.76      0.93      0.84        14
+        feet       0.71      0.67      0.69        15
+      tongue       0.92      0.79      0.85        14
+
+    accuracy                           0.81        57
+   macro avg       0.81      0.81      0.81        57
+weighted avg       0.81      0.81      0.81        57
+
+Confusion EEGNet fold5:
+[[12  1  1  0]
+ [ 4  5  3  2]
+ [ 7  5  2  1]
+ [ 5  2  0  7]]
+Confusion LDA fold5:
+[[11  0  3  0]
+ [ 0 12  2  0]
+ [ 1  2 11  1]
+ [ 0  1  2 11]]
+Confusion ENS fold5:
+[[12  1  1  0]
+ [ 0 13  1  0]
+ [ 2  2 10  1]
+ [ 0  1  2 11]]
+A08 mean acc = 77.44%
+A09 Fold 1: EEGNet acc=60.34% | LDA(CSP) acc=56.90% | Ensemble acc=62.07%
+A09 Fold 1 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.57      0.80      0.67        15
+  right_hand       0.67      0.29      0.40        14
+        feet       0.47      0.50      0.48        14
+      tongue       0.75      0.80      0.77        15
+
+    accuracy                           0.60        58
+   macro avg       0.61      0.60      0.58        58
+weighted avg       0.62      0.60      0.59        58
+
+A09 Fold 1 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.53      0.53      0.53        15
+  right_hand       0.56      0.36      0.43        14
+        feet       0.53      0.57      0.55        14
+      tongue       0.63      0.80      0.71        15
+
+    accuracy                           0.57        58
+   macro avg       0.56      0.57      0.56        58
+weighted avg       0.56      0.57      0.56        58
+
+A09 Fold 1 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.56      0.67      0.61        15
+  right_hand       0.56      0.36      0.43        14
+        feet       0.67      0.57      0.62        14
+      tongue       0.68      0.87      0.76        15
+
+    accuracy                           0.62        58
+   macro avg       0.62      0.62      0.61        58
+weighted avg       0.62      0.62      0.61        58
+
+Confusion EEGNet fold1:
+[[12  0  3  0]
+ [ 5  4  3  2]
+ [ 4  1  7  2]
+ [ 0  1  2 12]]
+Confusion LDA fold1:
+[[ 8  2  3  2]
+ [ 5  5  2  2]
+ [ 2  1  8  3]
+ [ 0  1  2 12]]
+Confusion ENS fold1:
+[[10  2  1  2]
+ [ 6  5  2  1]
+ [ 2  1  8  3]
+ [ 0  1  1 13]]
+A09 Fold 2: EEGNet acc=58.62% | LDA(CSP) acc=56.90% | Ensemble acc=56.90%
+A09 Fold 2 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.64      1.00      0.78        14
+  right_hand       0.56      0.36      0.43        14
+        feet       0.40      0.27      0.32        15
+      tongue       0.65      0.73      0.69        15
+
+    accuracy                           0.59        58
+   macro avg       0.56      0.59      0.56        58
+weighted avg       0.56      0.59      0.55        58
+
+A09 Fold 2 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.67      0.57      0.62        14
+  right_hand       0.31      0.29      0.30        14
+        feet       0.70      0.47      0.56        15
+      tongue       0.61      0.93      0.74        15
+
+    accuracy                           0.57        58
+   macro avg       0.57      0.56      0.55        58
+weighted avg       0.57      0.57      0.56        58
+
+A09 Fold 2 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.67      0.71      0.69        14
+  right_hand       0.27      0.21      0.24        14
+        feet       0.60      0.40      0.48        15
+      tongue       0.64      0.93      0.76        15
+
+    accuracy                           0.57        58
+   macro avg       0.54      0.57      0.54        58
+weighted avg       0.55      0.57      0.54        58
+
+Confusion EEGNet fold2:
+[[14  0  0  0]
+ [ 4  5  3  2]
+ [ 3  4  4  4]
+ [ 1  0  3 11]]
+Confusion LDA fold2:
+[[ 8  4  1  1]
+ [ 4  4  2  4]
+ [ 0  4  7  4]
+ [ 0  1  0 14]]
+Confusion ENS fold2:
+[[10  3  1  0]
+ [ 4  3  3  4]
+ [ 1  4  6  4]
+ [ 0  1  0 14]]
+A09 Fold 3: EEGNet acc=56.90% | LDA(CSP) acc=46.55% | Ensemble acc=53.45%
+A09 Fold 3 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.56      1.00      0.72        14
+  right_hand       0.40      0.13      0.20        15
+        feet       0.46      0.40      0.43        15
+      tongue       0.73      0.79      0.76        14
+
+    accuracy                           0.57        58
+   macro avg       0.54      0.58      0.53        58
+weighted avg       0.53      0.57      0.52        58
+
+A09 Fold 3 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.45      0.36      0.40        14
+  right_hand       0.45      0.33      0.38        15
+        feet       0.38      0.40      0.39        15
+      tongue       0.55      0.79      0.65        14
+
+    accuracy                           0.47        58
+   macro avg       0.46      0.47      0.45        58
+weighted avg       0.46      0.47      0.45        58
+
+A09 Fold 3 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.53      0.57      0.55        14
+  right_hand       0.67      0.40      0.50        15
+        feet       0.43      0.40      0.41        15
+      tongue       0.55      0.79      0.65        14
+
+    accuracy                           0.53        58
+   macro avg       0.54      0.54      0.53        58
+weighted avg       0.54      0.53      0.53        58
+
+Confusion EEGNet fold3:
+[[14  0  0  0]
+ [ 4  2  6  3]
+ [ 6  2  6  1]
+ [ 1  1  1 11]]
+Confusion LDA fold3:
+[[ 5  4  3  2]
+ [ 2  5  4  4]
+ [ 4  2  6  3]
+ [ 0  0  3 11]]
+Confusion ENS fold3:
+[[ 8  1  3  2]
+ [ 3  6  2  4]
+ [ 4  2  6  3]
+ [ 0  0  3 11]]
+A09 Fold 4: EEGNet acc=57.89% | LDA(CSP) acc=45.61% | Ensemble acc=49.12%
+A09 Fold 4 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.54      1.00      0.70        14
+  right_hand       0.38      0.20      0.26        15
+        feet       0.55      0.43      0.48        14
+      tongue       0.83      0.71      0.77        14
+
+    accuracy                           0.58        57
+   macro avg       0.57      0.59      0.55        57
+weighted avg       0.57      0.58      0.55        57
+
+A09 Fold 4 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.57      0.57      0.57        14
+  right_hand       0.47      0.47      0.47        15
+        feet       0.20      0.21      0.21        14
+      tongue       0.62      0.57      0.59        14
+
+    accuracy                           0.46        57
+   macro avg       0.46      0.46      0.46        57
+weighted avg       0.46      0.46      0.46        57
+
+A09 Fold 4 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.59      0.71      0.65        14
+  right_hand       0.42      0.33      0.37        15
+        feet       0.29      0.29      0.29        14
+      tongue       0.64      0.64      0.64        14
+
+    accuracy                           0.49        57
+   macro avg       0.48      0.49      0.49        57
+weighted avg       0.48      0.49      0.48        57
+
+Confusion EEGNet fold4:
+[[14  0  0  0]
+ [ 7  3  3  2]
+ [ 5  3  6  0]
+ [ 0  2  2 10]]
+Confusion LDA fold4:
+[[8 2 4 0]
+ [3 7 4 1]
+ [3 4 3 4]
+ [0 2 4 8]]
+Confusion ENS fold4:
+[[10  0  4  0]
+ [ 4  5  4  2]
+ [ 3  4  4  3]
+ [ 0  3  2  9]]
+A09 Fold 5: EEGNet acc=59.65% | LDA(CSP) acc=61.40% | Ensemble acc=73.68%
+A09 Fold 5 - EEGNet report:
+              precision    recall  f1-score   support
+
+   left_hand       0.67      0.80      0.73        15
+  right_hand       0.30      0.21      0.25        14
+        feet       0.60      0.43      0.50        14
+      tongue       0.68      0.93      0.79        14
+
+    accuracy                           0.60        57
+   macro avg       0.56      0.59      0.57        57
+weighted avg       0.56      0.60      0.57        57
+
+A09 Fold 5 - LDA report:
+              precision    recall  f1-score   support
+
+   left_hand       0.64      0.60      0.62        15
+  right_hand       0.62      0.57      0.59        14
+        feet       0.45      0.36      0.40        14
+      tongue       0.68      0.93      0.79        14
+
+    accuracy                           0.61        57
+   macro avg       0.60      0.61      0.60        57
+weighted avg       0.60      0.61      0.60        57
+
+A09 Fold 5 - Ensemble report:
+              precision    recall  f1-score   support
+
+   left_hand       0.74      0.93      0.82        15
+  right_hand       0.78      0.50      0.61        14
+        feet       0.80      0.57      0.67        14
+      tongue       0.68      0.93      0.79        14
+
+    accuracy                           0.74        57
+   macro avg       0.75      0.73      0.72        57
+weighted avg       0.75      0.74      0.72        57
+
+Confusion EEGNet fold5:
+[[12  1  2  0]
+ [ 5  3  2  4]
+ [ 1  5  6  2]
+ [ 0  1  0 13]]
+Confusion LDA fold5:
+[[ 9  1  5  0]
+ [ 3  8  1  2]
+ [ 2  3  5  4]
+ [ 0  1  0 13]]
+Confusion ENS fold5:
+[[14  0  1  0]
+ [ 3  7  1  3]
+ [ 2  1  8  3]
+ [ 0  1  0 13]]
+A09 mean acc = 59.04%
+
+=== Acurácia média FINAL: 63.43% | 95% CI (boot) = [59.01%, 67.84%] ===
